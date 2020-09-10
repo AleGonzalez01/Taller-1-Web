@@ -1,0 +1,41 @@
+@mixin btnModifier($bg ) {
+    background-color: $bg;
+
+    
+    &:hover {
+      background-color: darken($bg, 6%);
+    }
+  }
+
+  @mixin btnmHeightModifier($margin) {
+    margin: $margin;
+  }
+
+.buttoms{
+
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px ;
+    font-family:$font;
+    background-color: $red;
+    color:$white;
+    border-color: transparent;
+    animation: 2s, ease-in;
+
+    &:hover{
+        background-color: $orange;
+        animation: 2s, ease-in-out;
+    }
+
+    &--blacks{
+        @include btnModifier($graybtn);
+    }
+
+    &--whithspace{
+        @include btnmHeightModifier($margin);
+    }
+}
+
+      
+

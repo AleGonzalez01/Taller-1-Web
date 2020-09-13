@@ -10,6 +10,7 @@
   @mixin btnmHeightModifier($margin) {
     margin: $margin;
   }
+  
 
 .buttoms{
 
@@ -34,6 +35,10 @@
 
     &--whithspace{
         @include btnmHeightModifier($margin);
+    }
+
+    &--border{
+      border-radius: 0px ;
     }
 }
 

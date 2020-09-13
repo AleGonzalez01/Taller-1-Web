@@ -4,6 +4,7 @@ $orange: #F59402;
 $black: #141414 ;
 $gray: #1D1D1D;
 $graybtn: #5F5B5A; 
+$graytwo: #5A5A5A; 
 $font: 'Questrial', sans-serif;
 $margin: 50px;
 
@@ -17,6 +18,8 @@ body{
 @import 'btn';
 @import 'interaction';
 @import 'characteristic';
+@import 'promotion';
+@import 'table';
 
 
 

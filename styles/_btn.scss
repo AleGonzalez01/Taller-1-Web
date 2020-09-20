@@ -42,5 +42,23 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+  .buttoms{
+    font-size: 14px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px ;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .buttoms{
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px ;
+  }
+}
       
 

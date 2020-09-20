@@ -41,6 +41,36 @@ body {
   padding: 50px;
 }
 
+@media screen and (max-width: 900px) {
+  .navegation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navegation__image {
+    margin-left: 0px;
+  }
+  .navegation__sections {
+    width: 100%;
+    margin-left: 500px;
+  }
+  .navegation__a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navegation__sections {
+    width: 100%;
+    margin-left: 180px;
+  }
+  .navegation__a {
+    font-size: 12px;
+    padding: 30px;
+  }
+}
+
 .principal {
   width: 100%;
 }

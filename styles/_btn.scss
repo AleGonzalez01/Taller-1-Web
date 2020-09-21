@@ -12,7 +12,7 @@
   }
   
 
-.buttoms{
+.buttons{
 
     font-size: 18px;
     width: 180px;
@@ -23,6 +23,7 @@
     color:$white;
     border-color: transparent;
     animation: 2s, ease-in;
+    margin-right: 10px;
 
     &:hover{
         background-color: $orange;
@@ -31,6 +32,7 @@
 
     &--blacks{
         @include btnModifier($graybtn);
+        margin-right: 10px;
     }
 
     &--whithspace{

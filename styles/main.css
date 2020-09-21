@@ -127,7 +127,7 @@ body {
   }
 }
 
-.buttoms {
+.buttons {
   font-size: 18px;
   width: 180px;
   height: 50px;
@@ -138,27 +138,29 @@ body {
   border-color: transparent;
   -webkit-animation: 2s, ease-in;
           animation: 2s, ease-in;
+  margin-right: 10px;
 }
 
-.buttoms:hover {
+.buttons:hover {
   background-color: #F59402;
   -webkit-animation: 2s, ease-in-out;
           animation: 2s, ease-in-out;
 }
 
-.buttoms--blacks {
+.buttons--blacks {
   background-color: #5F5B5A;
+  margin-right: 10px;
 }
 
-.buttoms--blacks:hover {
+.buttons--blacks:hover {
   background-color: #4f4c4b;
 }
 
-.buttoms--whithspace {
+.buttons--whithspace {
   margin: 50px;
 }
 
-.buttoms--border {
+.buttons--border {
   border-radius: 0px;
 }
 
@@ -234,7 +236,7 @@ body {
   font-size: 24px;
 }
 
-.interaction_btn {
+.interaction__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

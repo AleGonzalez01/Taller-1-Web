@@ -1,6 +1,11 @@
-const btn = document.querySelector('.interaction__bnt');
+const btns = document.querySelectorAll('.interaction__buttons .buttons');
 
-btn.addEventListener('click', function(){
-    btn.classList.toggle("buttoms");
-   
+btns.forEach(function(btn){
+
+    btn.addEventListener('click', function(){
+        btn.classList.toggle("buttons--blacks");
+       
+    })
 })
+
+

@@ -33,6 +33,53 @@
     }
     &__buttons{
         display: flex;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .interaction{
+        flex-direction: column;
+        height: 780px;
+
+        &__image{
+            width: 85%;
+            height: 500px;
+        }
+        &__info{
+            width: 80%;
+        }
+
+        &__text{
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
         
     }
 }
+
+@media screen and (max-width: 600px) {
+    .interaction{
+        height: 450px;
+
+        &__image{
+            width: 80%;
+            height: 200px;
+        }
+        &__info{
+            width: 80%;
+        }
+
+        &__text{
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        &__buttons{
+            width: 100%;
+        }
+    }
+
+
+}
+

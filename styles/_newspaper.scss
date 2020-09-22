@@ -22,3 +22,11 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 900px) {
+    .newspaper{
+        &__title{
+            font-size: 24px;
+            padding: 30px;
+        }
+    }
+  }

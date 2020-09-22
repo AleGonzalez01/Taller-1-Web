@@ -38,3 +38,45 @@
         
     }
 }
+@media screen and (max-width: 900px) {
+    .promotion{
+        flex-direction: column;
+        height: 750px;
+
+        &__image{
+            width: 100%;
+            height: 480px;
+        }
+        &__info{
+            width: 100%;   
+        }
+
+        &__title{
+            font-size: 24px;
+            padding: 30px;
+        }
+        &__paragraph{
+            font-size: 16px;
+            padding: 20px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .promotion{
+        height: 350px;
+
+        &__image{
+            width: 100%;
+            height: 190px;
+        }
+        &__title{
+            font-size: 16px;
+            padding: 15px;
+        }
+        &__paragraph{
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+  }

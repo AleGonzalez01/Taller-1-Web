@@ -52,8 +52,8 @@ body {
     margin-left: 0px;
   }
   .navegation__sections {
-    width: 100%;
-    margin-left: 500px;
+    width: 60%;
+    margin-left: 200px;
   }
   .navegation__a {
     font-size: 16px;
@@ -62,12 +62,15 @@ body {
 
 @media screen and (max-width: 600px) {
   .navegation__sections {
-    width: 100%;
-    margin-left: 180px;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
   }
   .navegation__a {
     font-size: 12px;
-    padding: 30px;
+    padding: 20px;
   }
 }
 
@@ -206,7 +209,7 @@ body {
   margin-left: 20px;
   width: 50%;
   height: 500px;
-  background-image: url(/imagenes/Ninguno.png);
+  background-image: url(/imagenes/truetruetrue.png);
   background-size: cover;
   outline: none;
 }
@@ -252,7 +255,7 @@ body {
   }
   .interaction__image {
     width: 85%;
-    height: 500px;
+    height: 700px;
   }
   .interaction__info {
     width: 80%;
@@ -473,7 +476,7 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .promotion {
     height: 350px;
   }
@@ -486,6 +489,7 @@ body {
     padding: 15px;
   }
   .promotion__paragraph {
+    width: 80%;
     font-size: 12px;
     padding: 10px;
   }

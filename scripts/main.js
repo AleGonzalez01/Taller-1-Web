@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll('.interaction__buttons .buttons');
-const image = document.querySelector('interaction__image');
+const image = document.querySelector('.interaction__image');
 
 btns.forEach(function(btn){
 

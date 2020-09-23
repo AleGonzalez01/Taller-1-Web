@@ -407,12 +407,59 @@ body {
   }
 }
 
+.gallery {
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+.gallery__background {
+  width: 70%;
+  overflow: hidden;
+}
+
+.gallery__stripe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+.gallery__left {
+  width: 15%;
+  height: 100px;
+  background-image: url(../imagenes/flecha2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 60px;
+}
+
+.gallery__right {
+  width: 15%;
+  height: 100px;
+  background-image: url(../imagenes/flechas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+}
+
 .promotion {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #141414;
+  background-color: #1D1D1D;
 }
 
 .promotion__image {

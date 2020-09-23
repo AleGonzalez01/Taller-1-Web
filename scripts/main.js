@@ -15,7 +15,30 @@ btns.forEach(function(btn){
 })
 
 
+const gallery = document.querySelector('.gallery__background');
+const galleryStripe = document.querySelector('.gallery__stripe');
+const derecha = document.querySelector('.gallery__right');
+const izquierda = document.querySelector('.gallery__left');
+let current = 0;
 
+
+derecha.addEventListener('click', function () {
+    current++;
+    if(current >= galleryStripe.children.length) {
+      current = 0;
+    }
+    const width = gallery.clientWidth;
+    galleryStripe.style.transform = 'translate(-' + (width * current) + 'px, 0px)';
+  });
+
+izquierda.addEventListener('click', function () {
+  current--;
+  if(current < 0 ) {
+    current = galleryStripe.children.length-1;
+  }
+  const width = gallery.clientWidth;
+  galleryStripe.style.transform = 'translate(' + (width * current) + 'px, 0px)';
+});
 
 
 

@@ -81,7 +81,7 @@ body {
 .principal__image {
   width: 100%;
   height: 600px;
-  background-image: url(/imagenes/pexels-pixabay-371924.jpg);
+  background-image: url(../imagenes/pexels-pixabay-371924.jpg);
   background-size: cover;
 }
 
@@ -215,7 +215,7 @@ body {
   margin-left: 20px;
   width: 50%;
   height: 500px;
-  background-image: url(/imagenes/truetruetrue.png);
+  background-image: url(../imagenes/truetruetrue.png);
   background-size: cover;
   outline: none;
 }
@@ -322,17 +322,17 @@ body {
   width: 50%;
   height: 500px;
   background-size: cover;
-  background-image: url(/imagenes/c1.png);
+  background-image: url(../imagenes/c1.png);
 }
 
 .characteristic__image--two {
-  background-image: url(/imagenes/c2.png);
+  background-image: url(../imagenes/c2.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .characteristic__image--three {
-  background-image: url(/imagenes/c3.png);
+  background-image: url(../imagenes/c3.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
@@ -502,7 +502,7 @@ body {
 .promotion__image {
   width: 60%;
   height: 600px;
-  background-image: url(/imagenes/1591123763_maxresdefault.jpg);
+  background-image: url(../imagenes/1591123763_maxresdefault.jpg);
   background-size: cover;
 }
 
@@ -616,7 +616,7 @@ body {
   height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/imagenes/decoration.png);
+  background-image: url(../imagenes/decoration.png);
   margin-top: 120px;
   margin-left: 150px;
 }
@@ -833,7 +833,7 @@ body {
 .footer__image {
   width: 65%;
   height: 45px;
-  background-image: url(/imagenes/Logos.png);
+  background-image: url(../imagenes/Logos.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
@@ -842,7 +842,7 @@ body {
 .footer__logo {
   width: 80%;
   height: 40px;
-  background-image: url(/imagenes/Logo.png);
+  background-image: url(../imagenes/Logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 60px;

@@ -29,15 +29,15 @@
         width: 50%;
         height: 500px;
         background-size: cover;
-        background-image: url(/imagenes/c1.png);
+        background-image: url(../imagenes/c1.png);
 
         &--two{
-            @include imagechange(url(/imagenes/c2.png));
+            @include imagechange(url(../imagenes/c2.png));
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--three{
-            @include imagechange(url(/imagenes/c3.png));
+            @include imagechange(url(../imagenes/c3.png));
             background-size: contain;
             background-repeat: no-repeat;
             height: 250px;

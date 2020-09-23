@@ -17,12 +17,12 @@ btns.forEach(function(btn){
 
 const gallery = document.querySelector('.gallery__background');
 const galleryStripe = document.querySelector('.gallery__stripe');
-const derecha = document.querySelector('.gallery__right');
-const izquierda = document.querySelector('.gallery__left');
+const right = document.querySelector('.gallery__right');
+const left = document.querySelector('.gallery__left');
 let current = 0;
 
 
-derecha.addEventListener('click', function () {
+right.addEventListener('click', function () {
     current++;
     if(current >= galleryStripe.children.length) {
       current = 0;
@@ -31,7 +31,7 @@ derecha.addEventListener('click', function () {
     galleryStripe.style.transform = 'translate(-' + (width * current) + 'px, 0px)';
   });
 
-izquierda.addEventListener('click', function () {
+left.addEventListener('click', function () {
   current--;
   if(current < 0 ) {
     current = galleryStripe.children.length-1;

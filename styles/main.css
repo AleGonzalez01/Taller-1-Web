@@ -184,8 +184,10 @@ body {
     font-size: 10px;
     width: 100px;
     height: 30px;
-    border-radius: 10px .buttons --border;
-    border-radius-border-radius: 0px;
+    border-radius: 10px;
+  }
+  .buttons--border {
+    border-radius: 0px;
   }
 }
 
@@ -452,6 +454,41 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    padding: 30px;
+  }
+  .gallery__left {
+    width: 15%;
+    height: 100px;
+    margin-left: 30px;
+  }
+  .gallery__right {
+    width: 15%;
+    height: 100px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    padding: 20px;
+  }
+  .gallery__background {
+    margin: 10px;
+  }
+  .gallery__left {
+    width: 10%;
+    height: 80px;
+    margin-left: 0;
+  }
+  .gallery__right {
+    width: 10%;
+    height: 80px;
+    margin-left: 10px;
+  }
 }
 
 .promotion {

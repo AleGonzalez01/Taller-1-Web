@@ -33,11 +33,14 @@ right.addEventListener('click', function () {
 
 left.addEventListener('click', function () {
   current--;
+
   if(current < 0 ) {
     current = galleryStripe.children.length-1;
   }
+
+
   const width = gallery.clientWidth;
-  galleryStripe.style.transform = 'translate(' + (width * current) + 'px, 0px)';
+  galleryStripe.style.transform = 'translate(-' + (width * current) + 'px, 0px)';
 });
 
 
